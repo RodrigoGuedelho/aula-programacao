@@ -1,6 +1,16 @@
 public class Pessoa {
     int idade;
     String nome;
+    String cpf;
+
+    public Pessoa(int idade, String nome, String cpf) {
+        this.idade = idade;
+        this.nome = nome;
+        this.cpf = cpf;
+    }
+
+    public Pessoa() {
+    }
 
     public void falar(String mensagem) {
         if (mensagem == null)
